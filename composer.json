@@ -16,5 +16,12 @@
         "php": ">=8.0",
         "laravel/framework": ">=11.0",
         "symfony/process": "^7.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lynexer\\LaravelSimpleSemver\\SimpleSemverServiceProvider"
+            ]
+        }
     }
 }
